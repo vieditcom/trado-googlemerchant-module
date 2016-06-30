@@ -14,6 +14,6 @@ class TradoGooglemerchantModule::FeedsController < ApplicationController
     private
 
     def set_products
-        @products ||= Product.active.published
+        @products ||= Product.includes(:skus, :category).active.published
     end
 end
