@@ -1,5 +1,5 @@
 module TradoGooglemerchantModule
 end
 
-require 'trado_paypal_module/engine'
-require 'trado_paypal_module/version'
+require 'trado_googlemerchant_module/engine'
+require 'trado_googlemerchant_module/version'

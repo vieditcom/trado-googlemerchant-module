@@ -1,3 +1,5 @@
 TradoGooglemerchantModule::Engine.routes.draw do
-    get 'rss_feed', to: 'google_merchant/rss_feed#index', as: 'google_merchant_rss_feed'
+    %w( xml rss ).each do |feed_type|
+        get 'feed', to: "trado_googlemerchant_module/feeds##{feed_type}", format: feed_type
+    end
 end
