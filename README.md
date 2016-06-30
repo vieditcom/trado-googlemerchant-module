@@ -10,7 +10,7 @@ Module for Google Merchant Product Feed functionality in the Trado Ecommerce pla
 Add module to your Gemfile:
 
 ```ruby
-gem 'trado_googlemerchant_module', git: "git@github.com:Jellyfishboy/trado-googlemerchant-module.git"
+gem 'trado_googlemerchant_module', github: 'Jellyfishboy/trado-googlemerchant-module', branch: 'master'
 ```
 
 Then run bundle to install the Gem:
