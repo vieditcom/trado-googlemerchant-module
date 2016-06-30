@@ -31,6 +31,14 @@ Restart the main application server:
 foreman start -f Procfile.dev
 ```
 
+You can view the XML readable format of the feed at:
+
+`http://www.example.com/google_merchant/feed.xml`
+
+And you can submit the RSS format of the feed to Google at:
+
+`http://www.example.com/google_merchant/feed.rss`
+
 ## Versioning
 
 Trado PayPal module follows Semantic Versioning 2.0 as defined at
