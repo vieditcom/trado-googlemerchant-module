@@ -5,6 +5,32 @@ Module for Google Merchant Product Feed functionality in the Trado Ecommerce pla
 
 [Release notes](http://release.tomdallimore.com/projects/trado-googlemerchant)
 
+## Installation
+
+Add module to your Gemfile:
+
+```ruby
+gem 'trado_paypal_module', git: "git@github.com:Jellyfishboy/trado-googlemerchant-module.git"
+```
+
+Then run bundle to install the Gem:
+
+```sh
+bundle install
+```
+
+Now generate routes:
+
+```sh
+rails generate trado_googlemerchant_module:install
+```
+
+Restart the main application server:
+
+```sh
+foreman start -f Procfile.dev
+```
+
 ## Versioning
 
 Trado PayPal module follows Semantic Versioning 2.0 as defined at
