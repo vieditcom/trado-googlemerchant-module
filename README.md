@@ -37,7 +37,7 @@ You can view the XML readable format of the feed at:
 http://www.example.com/google_merchant/feed.xml
 ```
 
-And you can submit the RSS format of the feed to Google at:
+And you can submit the RSS format of the feed to Google with the following url:
 
 ```
 http://www.example.com/google_merchant/feed.rss
