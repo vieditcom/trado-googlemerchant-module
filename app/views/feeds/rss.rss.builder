@@ -5,6 +5,7 @@ xml.channel do
     xml.language 'en'
 
     for product in @products
+        next unless (product.googlemerchant_brand.present? && product.googlemerchant_category.present?)
         xml.item do
             xml.tag!("g:id", product.sku)
             xml.tag!("g:title", product.name)
@@ -16,9 +17,8 @@ xml.channel do
             xml.tag!("g:price", "#{product.first_available_sku.price} GBP")
 
             xml.tag!("g:mpn", product.part_number)
-            # xml.tag!("g:brand" "")
-
-            # xml.tag!("g:google_product_category", "")
+            xml.tag!("g:brand" product.googlemerchant_brand)
+            xml.tag!("g:google_product_category", product.googlemerchant_category)
 
         end
     end

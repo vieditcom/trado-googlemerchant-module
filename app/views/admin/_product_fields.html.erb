@@ -1,0 +1,24 @@
+<div class="threecol">
+	<h3>Google Merchant</h3>
+	<p>Set the product brand and category for your Google Merchant product feed.</p>
+</div>
+<div class="ninecol last">
+	<fieldset class="widget widget-content widget-last widget-dynamic-top-margin">
+		<div class="row">
+			<div class="twelvecol">
+				<div class="form-group">
+					<%= f.label 'Brand' %>
+					<%= f.text_field :googlemerchant_brand, :class => 'form-control' %>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelvecol">
+				<div class="form-group form-last">
+					<%= f.label 'Category' %>
+					<%= f.text_field :googlemerchant_category, :class => 'form-control' %>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+</div>
