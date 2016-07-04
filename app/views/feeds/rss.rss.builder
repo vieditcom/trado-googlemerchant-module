@@ -17,7 +17,7 @@ xml.channel do
             xml.tag!("g:price", "#{product.first_available_sku.price} GBP")
 
             xml.tag!("g:mpn", product.part_number)
-            xml.tag!("g:brand" product.googlemerchant_brand)
+            xml.tag!("g:brand", product.googlemerchant_brand)
             xml.tag!("g:google_product_category", product.googlemerchant_category)
 
         end
