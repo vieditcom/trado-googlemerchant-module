@@ -23,6 +23,7 @@ Now generate migrations, create helpers and assign model concerns:
 
 ```sh
 rails generate trado_googlemerchant_module:install
+bundle exec rake db:migrate
 ```
 
 Restart the main application server:
