@@ -14,7 +14,7 @@ xml.channel do
             xml.tag!("g:image_link", product.attachments.first.file.large.url)
             xml.tag!("g:condition", "new")
             xml.tag!("g:availability", product.in_stock? ? "in stock" : "out of stock")
-            xml.tag!("g:price", "#{product.first_available_sku.price} GBP")
+            xml.tag!("g:price", "#{product.first_available_sku.price} #{Store.settings.currency_code}")
 
             xml.tag!("g:mpn", product.part_number)
             xml.tag!("g:brand", product.googlemerchant_brand)
