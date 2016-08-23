@@ -6,7 +6,7 @@ module TradoGooglemerchantModule
             def has_googlemerchant
                 attr_accessible :googlemerchant_brand, :googlemerchant_category
 
-                validates :googlemerchant_category, :googlemerchant_brand, presence: true
+                validates :googlemerchant_category, :googlemerchant_brand, presence: true, :if => :published?
             end
         end
     end
