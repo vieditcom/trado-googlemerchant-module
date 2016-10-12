@@ -46,7 +46,7 @@ http://www.example.com/google_merchant/feed.rss
 
 ## Versioning
 
-Trado PayPal module follows Semantic Versioning 2.0 as defined at
+Trado Google Merchant module follows Semantic Versioning 2.0 as defined at
 <http://semver.org>.
 
 ## How to contribute
@@ -58,5 +58,5 @@ Trado PayPal module follows Semantic Versioning 2.0 as defined at
 * Send a pull request against the *development* branch
 
 ## Copyright
-Copyright (c) 2014 [Tom Dallimore](http://www.tomdallimore.com/?utm_source=trado-paypal-module-github&utm_medium=website&utm_campaign=tomdallimore) ([@tom_dallimore](http://twitter.com/tom_dallimore))  
+Copyright (c) 2014 [Tom Dallimore](http://www.tomdallimore.com/?utm_source=trado-google-merchant-module-github&utm_medium=website&utm_campaign=tomdallimore) ([@tom_dallimore](http://twitter.com/tom_dallimore))  
 Licenced under the MIT licence.
