@@ -19,7 +19,7 @@ Then run bundle to install the Gem:
 bundle install
 ```
 
-Now generate migrations, create helpers and assign model concerns:
+Now generate migrations and assign model concerns:
 
 ```sh
 rails generate trado_googlemerchant_module:install

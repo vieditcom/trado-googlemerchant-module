@@ -10,10 +10,6 @@ module TradoGooglemerchantModule
                 end
             end
 
-            def copy_helper
-                template "helper.rb", "app/helpers/googlemerchant_helper.rb"
-            end
-
             def setup_routes
                 route_content = <<-CONTENT
 
