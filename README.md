@@ -1,6 +1,6 @@
-![alt text](http://cdn0.trado.io/trado-promo/assets/img/cropped.png "Trado")
+![alt text](http://cdn2.tomdallimore.com/assets/google-merchant-link-img.png "Trado")
 
-# Google Merchant Module
+# Google Merchant
 
 [![Gem Version](https://badge.fury.io/rb/trado_googlemerchant_module.svg)](https://badge.fury.io/rb/trado_googlemerchant_module)
 
